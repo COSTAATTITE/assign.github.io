@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vape Shop</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vape Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.vapehaven.ca">External Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <article>
+            <h2>Featured Products</h2>
+            <ul>
+                <li><em>Juice Flavors</em></li>
+                <li><em>Vape Mods</em></li>
+                <li><em>Accessories</em></li>
+            </ul>
+            <img src="juice.jpg" alt="Juice Flavors">
+            <img src="vape_mods.jpg" alt="Vape Mods">
+            <img src="accessories.jpg" alt="Accessories">
+        </article>
+    </section>
+
+    <section id="about">
+        <article>
+            <h2>About Us</h2>
+            <p>At <strong>Vape Haven</strong>, we strive to provide high-quality vaping products and exceptional customer service. Our products are trademarked&trade; for quality assurance.</p>
+            <img src="about_image.jpg" alt="About Us Image">
+            <p>Our values include:</p>
+            <ul>
+                <li>Customer satisfaction</li>
+                <li>Product quality</li>
+                <li>Continuous improvement</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="contact">
+        <article>
+            <h2>Contact Us</h2>
+            <address>
+                Email: <a href="mailto:info@vapehaven.com">info@vapehaven.com</a><br>
+                Phone: 123-456-7890
+            </address>
+        </article>
+    </section>
+
+        <section id="shop-info">
+        <h2>Shop Information</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Opening Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Downtown</strong></td>
+                    <td><mark>Mon-Fri: 9am-8pm<br>Sat-Sun: 10am-6pm</mark></td>
+                </tr>
+                <tr>
+                    <td><strong>Uptown</strong></td>
+                    <td><mark>Mon-Sat: 10am-7pm<br>Sun: Closed</mark></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="order-form">
+        <h2>Order Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="flavor">Select Juice Flavor:</label>
+            <select id="flavor" name="flavor">
+                <option value="mint">Mint</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="vanilla">Vanilla</option>
+            </select><br>
+
+            <label>Choose Vape Mod:</label><br>
+            <input type="radio" id="mod1" name="mod" value="mod1">
+            <label for="mod1">Mod 1</label><br>
+            <input type="radio" id="mod2" name="mod" value="mod2">
+            <label for="mod2">Mod 2</label><br>
+            <input type="radio" id="mod3" name="mod" value="mod3">
+            <label for="mod3">Mod 3</label><br>
+
+            <label>Choose Accessories:</label><br>
+            <input type="checkbox" id="battery" name="accessory" value="battery">
+            <label for="battery">Battery</label><br>
+            <input type="checkbox" id="charger" name="accessory" value="charger">
+            <label for="charger">Charger</label><br>
+            <input type="checkbox" id="coil" name="accessory" value="coil">
+            <label for="coil">Coil</label><br>
+
+            <input type="submit" value="Submit Order">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vape Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
